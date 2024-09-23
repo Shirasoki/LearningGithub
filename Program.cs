@@ -2,7 +2,7 @@
 {
     static void Main()
     {
-        System.Console.WriteLine("Skriv in 1,2 eller valfri siffra");
+        System.Console.WriteLine("Skriv in 1,2, 3, 4 eller valfri siffra");
         int input = int.Parse(Console.ReadLine());
         bool running = true;
         while (running)
@@ -18,7 +18,14 @@
             break;
         }
         else if (input == 3)
+        {
             System.Console.WriteLine("Du tryckte på 3 och nu spammar vi 3");
+        }
+        else if (input == 4)
+        {
+            System.Console.WriteLine("Du tryckte på 4 och vi stoppar där tycker jag");
+            break;
+        }
         else 
         {
             running = false;
