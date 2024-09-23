@@ -30,6 +30,11 @@
         {
             System.Console.WriteLine("Du tryckte på 5 men det var inte så bra eller hur");
         }
+        else if (input == 6)
+        {
+            System.Console.WriteLine("Jasså varför den siffran");
+            break;
+        }
         else 
         {
             running = false;
