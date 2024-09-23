@@ -17,6 +17,8 @@
             System.Console.WriteLine("Du tryckte på 2");
             break;
         }
+        else if (input == 3)
+        System.Console.WriteLine("Du tryckte på 3");
         else 
         {
             running = false;
