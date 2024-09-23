@@ -18,7 +18,7 @@
             break;
         }
         else if (input == 3)
-        System.Console.WriteLine("Du tryckte på 3");
+            System.Console.WriteLine("Du tryckte på 3 och nu spammar vi 3");
         else 
         {
             running = false;
