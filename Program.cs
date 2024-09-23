@@ -35,6 +35,11 @@
             System.Console.WriteLine("Jasså varför den siffran");
             break;
         }
+        else if (input != null)
+        {
+            System.Console.WriteLine("Försök igen");
+            break;
+        }
         else 
         {
             running = false;
