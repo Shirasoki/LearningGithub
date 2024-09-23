@@ -26,6 +26,10 @@
             System.Console.WriteLine("Du tryckte på 4 och vi stoppar där tycker jag");
             break;
         }
+        else if (input == 5)
+        {
+            System.Console.WriteLine("Du tryckte på 5 men det var inte så bra eller hur");
+        }
         else 
         {
             running = false;
