@@ -2,7 +2,7 @@
 {
     static void Main()
     {
-        System.Console.WriteLine("Skriv in 1,2, 3, 4 eller valfri siffra");
+        System.Console.WriteLine("Skriv in 1,2, 3, 4, 5, 6 eller valfri siffra");
         int input = int.Parse(Console.ReadLine());
         bool running = true;
         while (running)
